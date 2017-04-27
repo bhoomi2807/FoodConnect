@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "932983639771",
+    "firebase_url": "https://foodconnect-ce150.firebaseio.com",
+    "project_id": "foodconnect-ce150",
+    "storage_bucket": "foodconnect-ce150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932983639771:android:f245de865b57c810",
+        "android_client_info": {
+          "package_name": "com.example.bhoomi.foodconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932983639771-i466i5oei4je9op0hj6su6ishl1td6rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVN2AlMAzrkF4479xCtm1DYJXporVyWl0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

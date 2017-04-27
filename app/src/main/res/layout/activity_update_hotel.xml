@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/login"
+    tools:context="com.example.bhoomi.foodconnect.updateHotel">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/cSub"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="138dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/cAdd"
+        android:layout_alignBottom="@+id/cSub"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONSUMMABLE"
+        android:id="@+id/textView"
+        android:layout_above="@+id/cAdd"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="39dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cEdit"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_alignBottom="@+id/cSub"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NON-CONSUMMABLE"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_below="@+id/cSub"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="81dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/nSub"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/cSub" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ncEdit"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_alignBottom="@+id/nSub"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/nAdd"
+        android:layout_alignBottom="@+id/ncEdit"
+        android:layout_alignStart="@+id/cAdd" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:id="@+id/done"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/nAdd" />
+
+</RelativeLayout>
